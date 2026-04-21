@@ -1,0 +1,12 @@
+# Prompt template for your cheatsheet testing
+# Use {{cheatsheet}} to insert your cheatsheet content.
+# {{equation1}} and {{equation2}} will be filled by the runner.
+
+You are given the following cheatsheet to help decide the implication:
+{{cheatsheet}}
+
+Now determine whether the following equation holds:
+Equation 1: {{equation1}}
+Equation 2: {{equation2}}
+
+Provide a concise verdict: TRUE or FALSE.
